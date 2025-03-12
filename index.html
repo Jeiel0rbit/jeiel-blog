@@ -176,7 +176,7 @@
 
             async function showPostDetail(slug) {
                 try {
-                    const response = await fetch(`https://www.tabnews.com.br/api/v1/contents/JeielLimaMiranda/${slug}`);
+                    const response = await fetch(`https://www.tabnews.com.br/api/v1/contents/JeielMiranda/${slug}`);
                     const post = await response.json();
 
                     if (!post || !post.body) {
