@@ -1,53 +1,6 @@
-
-<!DOCTYPE html>
-<html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Blog do Jeiel Miranda</title>
-    <meta name="description" content="Blog do Jeiel Miranda" />
-    <meta name="author" content="Jeiel Miranda" />
-
-    <!-- Security Headers -->
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; connect-src 'self' https://www.tabnews.com.br; font-src 'self' data:;" />
-    <meta http-equiv="X-Content-Type-Options" content="nosniff" />
-    <meta http-equiv="X-Frame-Options" content="DENY" />
-    <meta http-equiv="X-XSS-Protection" content="1; mode=block" />
-    <meta http-equiv="Referrer-Policy" content="strict-origin-when-cross-origin" />
-
-    <!-- PWA Manifest -->
-    <link rel="manifest" href="/manifest.json" />
-    <meta name="theme-color" content="#3b82f6" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
-    <meta name="apple-mobile-web-app-title" content="Blog do Jeiel Miranda" />
-
-    <meta property="og:title" content="Blog do Jeiel Miranda" />
-    <meta property="og:description" content="Conteúdos de tecnologia!" />
-    <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://jeiel.pages.dev/assets/jeiel-DLoUMvkh.png" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@tabnews_" />
-    <meta name="twitter:image" content="https://jeiel.pages.dev/assets/jeiel-DLoUMvkh.png" />
-    <script type="module" crossorigin src="/assets/index-dJ7zYzpQ.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BTFItKTs.css">
-  </head>
-
-  <body>
-    <div id="root"></div>
-    <script>
-      if ('serviceWorker' in navigator) {
-        window.addEventListener('load', () => {
-          navigator.serviceWorker.register('/sw.js')
-            .then((registration) => {
-              console.log('SW registered: ', registration);
-            })
-            .catch((registrationError) => {
-              console.log('SW registration failed: ', registrationError);
-            });
-        });
-      }
+<script>
+        // Temp
+        window.onload = function() {
+            window.location.href = "https://jeiel-blog.vercel.app/";
+        };
     </script>
-  </body>
-</html>
